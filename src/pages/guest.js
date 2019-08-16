@@ -5,6 +5,10 @@ import CSSGlobalLocalImage from '../resources/img/seo/css-global-local.png';
 import SkeletonImage from '../resources/img/seo/skeleton-loading.png';
 import ImageOptimizationImage from '../resources/img/seo/image-optimization.png';
 
+
+/*
+  SIDEBAR MENU
+*/
 export default [
   {
     path: '/home',

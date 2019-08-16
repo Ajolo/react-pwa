@@ -43,7 +43,7 @@ export default () => (
       <div className="hero-body">
         <div className="container">
           <h1 className="title">
-            Features
+            About Me
           </h1>
           <h2 className="subtitle">
             There are no limits for creativity

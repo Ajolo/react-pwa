@@ -31,7 +31,7 @@ export default class Routes {
     });
 
     routeHandler.setDefaultSeoSchema({
-      title: 'ReactPWA',
+      title: 'Alex J. Lopez',
     });
 
     const routes = [
