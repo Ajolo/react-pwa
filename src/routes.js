@@ -2,13 +2,34 @@ import GuestRoutes from './pages/guest';
 import AuthRoutes from './pages/auth';
 import SplashScreen from './pages/splash';
 
+// icon imports
+import Icon192 from "./resources/img/icon-192x192.png";
+import Icon512 from "./resources/img/icon-512x512.png";
+
+
 export default class Routes {
   // eslint-disable-next-line
   apply(routeHandler) {
     routeHandler.setPwaSchema({
-      name: 'ReactPWA',
-      short_name: 'ReactPWA',
+      name: "ajolo.dev",
+      short_name: "ajolo.dev",
+
+      // language: Default en-US #optional
+      lang: "en-US",
+      icons: [
+        {
+          "src": Icon192,
+          "type": "image/png",
+          "sizes": "192x192"
+        },
+        {
+          "src": Icon512,
+          "type": "image/png",
+          "sizes": "512x512"
+        }
+      ]
     });
+
     routeHandler.setDefaultSeoSchema({
       title: 'ReactPWA',
     });

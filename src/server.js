@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactPWAIcon from './resources/img/react-pwa.png';
+import Icon from './resources/img/icon-512x512.png';
 
 export default class Server {
   // eslint-disable-next-line
@@ -17,14 +17,17 @@ export default class Server {
 
     serverHandler.hooks.beforeHtmlRender.tapPromise('AddFavIcon', async (Application) => {
       const { htmlProps: { head } } = Application;
-      head.push(<link key="favicon" rel="shortcut icon" type="image/png" href={ReactPWAIcon} />);
+      head.push(<link key="favicon" rel="shortcut icon" type="image/png" href={Icon} />);
       return true;
     });
 
+    /*
     serverHandler.hooks.beforeHtmlRender.tapPromise('AddCodeFundScript', async (Application) => {
       Application.htmlProps.footer.push(<script id="js-codefund" async key="codefund" data-src="https://codefund.app/properties/136/funder.js" />);
     });
+    */
 
+    /*
     serverHandler.hooks.beforeHtmlRender.tapPromise('AddGoogleTracking', async (Application) => {
       Application.htmlProps.footer.push(<script async key="googleanalyticslink" src="https://www.googletagmanager.com/gtag/js?id=UA-108804791-2" />);
       Application.htmlProps.footer.push(<script
@@ -38,5 +41,6 @@ export default class Server {
         }}
       />);
     });
+    */
   }
 }
