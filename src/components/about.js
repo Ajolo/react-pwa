@@ -66,8 +66,8 @@ export default () => (
           🐍   Primary languages used are Python and JavaScript
         </h3>
 
-        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-        
+        <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
         <div className="description">
         </div>
         <div className="columns">
