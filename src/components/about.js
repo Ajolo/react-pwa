@@ -60,9 +60,14 @@ export default () => (
           💻   Seeking an entry level Software Development role
         </h3>
         <h3 className="title is-4">
-          🌐   Primary focus in web-based development
+          🌐   Focus in web-based development
         </h3>
+        <h3 className="title is-4">
+          🐍   Primary languages used are Python and JavaScript
+        </h3>
+
         <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        
         <div className="description">
         </div>
         <div className="columns">
