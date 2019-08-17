@@ -51,10 +51,20 @@ export default () => (
     <section className="m-t-lg">
       <div className="container p-l-md p-r-md">
         <h4 className="title is-4">
-          ReactPWA is configurable to the core.
-          You can add plugins as you like to extend the features or
-          you can use a bare minimum to start from scratch.
+          📕   Recent graduate of Seattle Pacific University with a Bachelor's in Computer Science
         </h4>
+        <h4 className="title is-4">
+          📍   Located in Seattle, Washington
+        </h4>
+        <h4 className="title is-4">
+          💻   Seeking an entry level Software Development role
+        </h4>
+        <h4 className="title is-4">
+          🌐   Primarily interested in web-based development
+        </h4>
+        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <div className="description">
+        </div>
         <div className="columns">
           <Column
             title="Babel 7"

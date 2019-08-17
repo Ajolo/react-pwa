@@ -7,10 +7,10 @@ export default class Server {
     serverHandler.hooks.beforeHtmlRender.tapPromise('DSNPreCache', async (Application) => {
       const { htmlProps: { head } } = Application;
       head.push(<link key="dns-precache-demo-cdn" rel="preconnect" href="https://demo-cdn.reactpwa.com" />);
-      head.push(<link key="dns-precache-codefund" rel="preconnect" href="https://codefund.app" />);
+      /*head.push(<link key="dns-precache-codefund" rel="preconnect" href="https://codefund.app" />);
       head.push(<link key="dns-precache-google-analytics" rel="preconnect" href="https://www.google-analytics.com" />);
       head.push(<link key="dns-precache-googletagmanager" rel="preconnect" href="https://www.googletagmanager.com" />);
-      head.push(<link key="dns-precache-cdn-codefund" rel="preconnect" href="https://cdn2.codefund.app" />);
+      head.push(<link key="dns-precache-cdn-codefund" rel="preconnect" href="https://cdn2.codefund.app" />);*/
       head.push(<meta key="meta-theme-color" name="theme-color" content="#209cee" />);
       //
     });

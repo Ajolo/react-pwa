@@ -11,7 +11,7 @@ export default () => (
         <h2 className="subtitle">
             Recent CS Grad of Seattle Pacific University
         </h2>
-        <Link to="/home" className="button">Continue</Link>
+        <Link to="/about" className="button">Continue</Link>
       </div>
     </div>
   </section>

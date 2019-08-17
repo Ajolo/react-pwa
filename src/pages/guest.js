@@ -11,13 +11,30 @@ import ImageOptimizationImage from '../resources/img/seo/image-optimization.png'
 */
 export default [
   {
-    path: '/home',
+    path: '/about',
     exact: true,
-    component: () => import('../components/home'),
+    component: () => import('../components/about'),
     seo: {
-      title: 'Home | ReactPWA Demo',
-      description: 'Feature set offered by ReactPWA with pluggable @pawjs plugins. ReactPWA is highly customizable and once can achieve anything as it is extendable',
-      image: FeaturesImage,
+      title:  'About',
+      description: 'Overview of qualifications and education',
+    },
+  },
+  {
+    path: '/contact',
+    exact: true,
+    component: () => import('../components/contact'),
+    seo: {
+      title:  'Contact',
+      description: 'Overview of qualifications and education',
+    },
+  },
+  {
+    path: '/projects',
+    exact: true,
+    component: () => import('../components/projects'),
+    seo: {
+      title:  'Projects',
+      description: 'Overview of qualifications and education',
     },
   },
   {
@@ -25,9 +42,8 @@ export default [
     exact: true,
     component: () => import('../components/global-local-css'),
     seo: {
-      title: 'CSS - Globally & Locally | ReactPWA Demo',
+      title: 'CSS',
       description: 'Sometimes we use global css classes like pad-10 but sometimes we need to write class names within modules that do not conflict with other modules, that is where local css comes into the picture',
-      image: CSSGlobalLocalImage,
     },
   },
   {
@@ -35,9 +51,8 @@ export default [
     exact: true,
     component: () => import('../components/typescript-counter'),
     seo: {
-      title: 'TypeScript Counter | ReactPWA Demo',
+      title: 'TypeScript Counter',
       description: 'TypeScript is awesome and implementing it with React makes it more awesome. Checkout this simple counter example with react and typescript',
-      image: CSSGlobalLocalImage,
     },
   },
   {
@@ -53,9 +68,8 @@ export default [
     component: () => import('../components/skeleton-loading'),
     skeleton,
     seo: {
-      title: 'Skeleton Loading | ReactPWA Demo',
+      title: 'Skeleton Loading',
       description: 'Tired of adding ugly loaders? Do not let your users get confused, give them the best user experience of what is getting loaded. Use Skeleton Loading',
-      image: SkeletonImage,
     },
   },
   {
@@ -63,9 +77,8 @@ export default [
     exact: true,
     component: () => import('../components/image-optmization'),
     seo: {
-      title: 'Image Optimization | ReactPWA Demo',
+      title: 'Image Optimization',
       description: 'Serve optimize images automatically with Lazy loading and WebP support with fallback to JPG/PNG of original image.',
-      image: ImageOptimizationImage,
     },
   },
   {
@@ -73,7 +86,7 @@ export default [
     exact: true,
     component: () => import('../components/contribute'),
     seo: {
-      title: 'Contribute | ReactPWA Demo',
+      title: 'Contribute',
       description: 'Be a part of larger family. Get involved with us and support our project ReactPWA',
     },
   },

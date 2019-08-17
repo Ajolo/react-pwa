@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './header';
-import Footer from './footer';
+// import Footer from './footer';
 
 export default function (props) {
   // eslint-disable-next-line
@@ -10,7 +10,7 @@ export default function (props) {
       <Header />
       {children}
       <br />
-      <Footer />
+      {/*<Footer />*/}
     </div>
   );
 }

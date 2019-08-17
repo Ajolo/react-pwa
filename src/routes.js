@@ -1,6 +1,6 @@
 import GuestRoutes from './pages/guest';
-import AuthRoutes from './pages/auth';
 import SplashScreen from './pages/splash';
+// import AuthRoutes from './pages/auth';
 
 // icon imports
 import Icon192 from "./resources/img/icon-192x192.png";
@@ -36,8 +36,8 @@ export default class Routes {
 
     const routes = [
       ...GuestRoutes,
-      ...AuthRoutes,
-      ...SplashScreen,
+      ...SplashScreen
+      // ...AuthRoutes
     ];
 
     routeHandler.hooks.initRoutes.tapPromise('AppRoutes', async () => {
