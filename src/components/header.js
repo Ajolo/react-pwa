@@ -50,8 +50,15 @@ export default class Header extends PureComponent {
             </div>
             <div className={`navbar-menu ${open ? 'is-active' : ''}`}>
               <Link className="navbar-item" to="/home" onClick={() => this.closeMenuBar()}>
-                Home
+                About
               </Link>
+              <Link className="navbar-item" to="/global-local-css" onClick={() => this.closeMenuBar()}>
+                Contact
+              </Link>
+              <Link className="navbar-item" to="/global-local-css" onClick={() => this.closeMenuBar()}>
+                Projects
+              </Link>
+              {/*
               <Link className="navbar-item" to="/global-local-css" onClick={() => this.closeMenuBar()}>
                 Global & Local CSS
               </Link>
@@ -70,12 +77,22 @@ export default class Header extends PureComponent {
               <Link className="navbar-item" to="/contribute" onClick={() => this.closeMenuBar()}>
                 Contribute
               </Link>
+              */}
               <a
                 className="navbar-item has-text-danger"
-                href="https://www.reactpwa.com"
+                href="https://github.com/ajolo"
+                target="_blank"
                 onClick={() => this.closeMenuBar()}
               >
-                Visit ReactPWA.com
+                GitHub
+              </a>
+              <a
+                className="navbar-item has-text-danger"
+                href="https://www.linkedin.com/in/alex-joel-lopez/"
+                target="_blank"
+                onClick={() => this.closeMenuBar()}
+              >
+                LinkedIn
               </a>
             </div>
           </div>
