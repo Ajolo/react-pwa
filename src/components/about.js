@@ -50,18 +50,18 @@ export default () => (
     </section>
     <section className="m-t-lg">
       <div className="container p-l-md p-r-md">
-        <h4 className="title is-4">
-          📕   Recent graduate of Seattle Pacific University with a Bachelor's in Computer Science
-        </h4>
-        <h4 className="title is-4">
+        <h3 className="title is-4">
           📍   Located in Seattle, Washington
-        </h4>
-        <h4 className="title is-4">
+        </h3>
+        <h3 className="title is-4">
+          📕   Recent graduate of Seattle Pacific University with a Bachelor's in Computer Science
+        </h3>
+        <h3 className="title is-4">
           💻   Seeking an entry level Software Development role
-        </h4>
-        <h4 className="title is-4">
-          🌐   Primarily interested in web-based development
-        </h4>
+        </h3>
+        <h3 className="title is-4">
+          🌐   Primary focus in web-based development
+        </h3>
         <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
         <div className="description">
         </div>
