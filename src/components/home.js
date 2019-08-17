@@ -45,9 +45,6 @@ export default () => (
           <h1 className="title">
             About Me
           </h1>
-          <h2 className="subtitle">
-            There are no limits for creativity
-          </h2>
         </div>
       </div>
     </section>
