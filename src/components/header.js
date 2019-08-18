@@ -82,6 +82,7 @@ export default class Header extends PureComponent {
                 className="navbar-item has-text-danger"
                 href="https://github.com/ajolo"
                 target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => this.closeMenuBar()}
               >
                 GitHub
@@ -90,6 +91,7 @@ export default class Header extends PureComponent {
                 className="navbar-item has-text-danger"
                 href="https://www.linkedin.com/in/alex-joel-lopez/"
                 target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => this.closeMenuBar()}
               >
                 LinkedIn

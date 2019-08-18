@@ -160,10 +160,10 @@ export default () => (
       <div className="container p-l-md p-r-md">
         <div class="tile is-parent">
           <div class="tile is-child">
-            <p class="subtitle is-6 notification">C++ Fundamentals</p>
+            <p class="subtitle is-12 notification">C++ Fundamentals</p>
           </div>
           <div class="tile">
-            <p class="subtitle is-6 notification">Advanced Data Structures</p>
+            <p class="subtitle is-12 notification">Advanced Data Structures</p>
           </div>
           <div class="tile">
             <p class="subtitle is-6 notification">Java II</p>
@@ -176,6 +176,33 @@ export default () => (
           </div>
           <div class="tile">
             <p class="subtitle is-6 notification">Algorithm Design and Analysis</p>
+          </div>
+          <div class="tile">
+            <p class="subtitle is-6 notification">Applications Programming</p>
+          </div>
+          <div class="tile">
+            <p class="subtitle is-6 notification">Netcentric Computing</p>
+          </div>
+          <div class="tile">
+            <p class="subtitle is-6 notification">Computer Org. and Assembly Language</p>
+          </div>
+          <div class="tile">
+            <p class="subtitle is-6 notification">Theory of Computation and Algorithms</p>
+          </div>
+          <div class="tile">
+            <p class="subtitle is-6 notification">Advanced Programming</p>
+          </div>
+          <div class="tile">
+            <p class="subtitle is-6 notification">Software Engineering I & II</p>
+          </div>
+          <div class="tile">
+            <p class="subtitle is-6 notification">Computer Networks</p>
+          </div>
+          <div class="tile">
+            <p class="subtitle is-6 notification">Operating Systems Programming</p>
+          </div>
+          <div class="tile">
+            <p class="subtitle is-6 notification">Information and Database Systems</p>
           </div>
         </div>
       </div>
