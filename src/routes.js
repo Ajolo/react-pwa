@@ -1,5 +1,5 @@
 import GuestRoutes from './pages/guest';
-import SplashScreen from './pages/splash';
+// import SplashScreen from './pages/splash';
 // import AuthRoutes from './pages/auth';
 
 // icon imports
@@ -35,8 +35,8 @@ export default class Routes {
     });
 
     const routes = [
-      ...GuestRoutes,
-      ...SplashScreen
+      ...GuestRoutes
+      // ...SplashScreen
       // ...AuthRoutes
     ];
 

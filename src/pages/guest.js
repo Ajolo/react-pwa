@@ -6,7 +6,7 @@ import skeleton from '../components/skeleton';
 */
 export default [
   {
-    path: '/about',
+    path: '/',
     exact: true,
     component: () => import('../components/about'),
     seo: {
