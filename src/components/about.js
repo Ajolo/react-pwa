@@ -39,95 +39,152 @@ Column.propTypes = {
 
 export default () => (
   <GuestLayout>
-    <section className="hero is-medium is-info is-bold">
+    <section className="hero is-primary is-bold is-medium"> 
       <div className="hero-body">
         <div className="container">
-          <h1 className="title">
-            About Me
+          <h1 className="title is-2">
+            Summary
           </h1>
         </div>
       </div>
     </section>
     <section className="m-t-lg">
       <div className="container p-l-md p-r-md">
-        <h3 className="title is-4">
-          📍   Located in Seattle, Washington
-        </h3>
-        <h3 className="title is-4">
-          📕   Recent graduate of Seattle Pacific University with a Bachelor's in Computer Science
-        </h3>
-        <h3 className="title is-4">
-          💻   Seeking an entry level Software Development role
-        </h3>
-        <h3 className="title is-4">
-          🌐   Focus in web-based development
-        </h3>
-        <h3 className="title is-4">
-          🐍   Primary languages used are Python and JavaScript
-        </h3>
-
-        <br/><br/><br/><br/><br/><br/><br/><br/><br/>
-
-        <div className="description">
-        </div>
-        <div className="columns">
-          <Column
-            title="Babel 7"
-            description="Already packed with the latest babel to achieve great performance and lower bundle size."
-            link="https://babeljs.io/blog/2018/08/27/7.0.0"
-          />
-          <Column
-            title="Webpack 4"
-            description="Optimized chunk splitting and is 98% more faster!
-            Thus creating small chunks and only loading the required chunk (code splitting)."
-            link="https://medium.com/webpack/webpack-4-released-today-6cdb994702d4"
-          />
-          <Column
-            title="Image Optimization"
-            description="@pawjs/image-optimizer specially for image optimizations.
-            Improving the compression of image with image-webpack-loader"
-            link="https://www.reactpwa.com/docs/en/plugin-image-optimization.html"
-          />
-        </div>
-        <div className="columns">
-          <Column
-            title="Skeleton loaders"
-            description="All the goodness of skeleton loading with very simple route configuration.
-            Supports pre-loading of data for the route as well."
-            link=""
-          />
-          <Column
-            title="Non Conflicting CSS"
-            description="Create hashed css classes such as _ax1c2d for your css modules loaded for
-            the specific component, thus no-conflict for using same class names"
-            link=""
-          />
-          <Column
-            title="Redux"
-            description="Integrating redux made simple with @pawjs/redux.
-            Preconfigured SSR with redux at your finger tips with minimum configuration"
-            link="https://www.reactpwa.com/docs/en/plugin-redux.html"
-          />
-        </div>
-        <div className="columns">
-          <Column
-            title="SASS"
-            description="Fan of SASS and PostCSS/CSSNext? well @pawjs/sass can help you
-            add sass support very easily to your project."
-            link="https://www.reactpwa.com/docs/en/plugin-sass.html"
-          />
-          <Column
-            title="Deployments"
-            description="Oh yes it is very simple to deploy and we already have tutorials for Heroku, Amazon EC2 & Digital Ocean"
-            link="https://www.reactpwa.com/docs/en/deploying-to-heroku.html"
-          />
-          <Column
-            title="Zero Configuration"
-            description="You can also start minimal with react-pwa. You just need one file: `src/routes.js` and nothing more."
-            link=""
-          />
+        <div className="box">
+          <h3 className="subtitle is-5">
+            > Located in Seattle, Washington
+          </h3>
+          <h3 className="subtitle is-5">
+            > Language familiarity: C++, C#, C, Java, Python, HTML, CSS, JavaScript, GoLang, Assembly, PowerShell, Transact-SQL
+          </h3>
+          <h3 className="subtitle is-5">
+            > Experience building responsive, RESTful web programs that use custom routing and libraries such as Node and React.js
+          </h3>
+          <h3 className="subtitle is-5">
+            > Comfortable with Windows/Unix environments as well as using the CLI
+          </h3>
+          <h3 className="subtitle is-5">
+            > Have worked with RESTful APIs in various instances, including development in JavaScript and Python for personal projects, as well as in PowerShell scripts for http request automation while working at NetApp
+          </h3>
+          <h3 className="subtitle is-5">
+            > Experience with version control software such as Git/GitHub on personal and group projects
+          </h3>
+          <h3 className="subtitle is-5">
+            > Familiarity with VM management using Hyper-V in addition to container services such as Docker
+          </h3>
+          <h3 className="subtitle is-5">
+            > Have designed and implemented SQL database residing on Azure for the purpose of storing highly available user data
+          </h3>
         </div>
       </div>
     </section>
+    <br/>
+    <section className="hero is-primary is-bold is-medium"> 
+      <div className="hero-body">
+        <div className="container">
+          <h1 className="title is-2">
+            Education
+          </h1>
+        </div>
+      </div>
+    </section>
+    <section className="m-t-lg">
+      <div className="container p-l-md p-r-md">
+        <div className="box">
+          <h3 className="title is-3">
+            Seattle Pacific University
+          </h3>
+          <h3 className="subtitle is-5">
+            Bachelor of Computer Science (September 2017 - June 2019)
+          </h3>
+        </div>
+        <div className="box">
+          <h3 className="title is-3">
+            Everett Community College
+          </h3>
+          <h3 className="subtitle is-5">
+            Computer Science Transfer Degree (September 2014 - June 2017)
+          </h3>
+        </div>
+      </div>
+    </section>
+    <br/>
+    <section className="hero is-primary is-bold is-medium"> 
+      <div className="hero-body">
+        <div className="container">
+          <h1 className="title is-2">
+            Work History
+          </h1>
+        </div>
+      </div>
+    </section>
+    <section className="m-t-lg">
+      <div className="container p-l-md p-r-md">
+        <div className="box">
+          <h3 className="title is-3">
+            NetApp
+          </h3>
+          <h3 className="subtitle is-5">
+            Assisted in the administration of the Bellevue lab environment, including management of 
+            on-premises servers and data storage. During tenure, I explored IT and data management 
+            concepts, including cloud storage management using NetApp software on Amazon Web Services, 
+            as well as VM management (Hyper-V) and containerization (Docker, K8s). Much of the work 
+            done was also able to eventually be automated with the use of PowerShell scripts written 
+            by myself. Was also fortunate enough to work directly with developers of NetApp products 
+            such as those working on the Cloud Volumes Service, as well as shadow their more senior 
+            Technical Marketing Engineers while on the job.
+          </h3>
+        </div>
+        <div className="box">
+          <h3 className="title is-3">
+            Safeway
+          </h3>
+          <h3 className="subtitle is-5">
+            Worked full-time while taking classes at EvCC, during which I was developing soft skills 
+            through customer facing work involving frequent social interaction and conflict resolution.
+          </h3>
+        </div>
+      </div>
+    </section>
+    <br/>
+    <section className="hero is-primary is-bold is-medium"> 
+      <div className="hero-body">
+        <div className="container">
+          <h1 className="title is-2">
+            Related Coursework
+          </h1>
+        </div>
+      </div>
+    </section>
+    <section className="m-t-lg">
+      <div className="container p-l-md p-r-md">
+        <div class="tile is-parent">
+          <div class="tile is-child">
+            <p class="subtitle is-6 notification">C++ Fundamentals</p>
+          </div>
+          <div class="tile">
+            <p class="subtitle is-6 notification">Advanced Data Structures</p>
+          </div>
+          <div class="tile">
+            <p class="subtitle is-6 notification">Java II</p>
+          </div>
+          <div class="tile">
+            <p class="subtitle is-6 notification">Systems Design</p>
+          </div>
+          <div class="tile">
+            <p class="subtitle is-6 notification">Concepts in Programming Languages</p>
+          </div>
+          <div class="tile">
+            <p class="subtitle is-6 notification">Algorithm Design and Analysis</p>
+          </div>
+        </div>
+      </div>
+      <br/>
+    </section>
+
+
+   
+      
+      
   </GuestLayout>
 );
