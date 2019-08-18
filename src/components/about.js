@@ -158,60 +158,73 @@ export default () => (
     </section>
     <section className="m-t-lg">
       <div className="container p-l-md p-r-md">
-        <div class="tile is-parent">
-          <div class="tile is-child">
-            <p class="subtitle is-12 notification">C++ Fundamentals</p>
+        <div class="tile is-ancestor">
+          <div class="tile is-parent">
+            <div class="tile is-3 is-child">
+              <p class="subtitle box">C++ Fundamentals</p>
+            </div>
+            <div class="tile is-3 is-child">
+              <p class="subtitle box">Advanced Data Structures</p>
+            </div>
+            <div class="tile is-3 is-child">
+              <p class="subtitle box">Java II</p>
+            </div>
+            <div class="tile is-3 is-child">
+              <p class="subtitle box">Systems Design</p>
+            </div>
           </div>
-          <div class="tile">
-            <p class="subtitle is-12 notification">Advanced Data Structures</p>
+        </div>
+
+        <div class="tile is-ancestor">
+          <div class="tile is-parent">
+            <div class="tile is-3 is-child">
+              <p class="subtitle box">Concepts in Programming Languages</p>
+            </div>
+            <div class="tile is-3 is-child">
+              <p class="subtitle box">Algorithm Design and Analysis</p>
+            </div>
+            <div class="tile is-3 is-child">
+              <p class="subtitle box">Applications Programming</p>
+            </div>
+            <div class="tile is-3 is-child">
+              <p class="subtitle box">Netcentric Computing</p>
+            </div>
           </div>
-          <div class="tile">
-            <p class="subtitle is-6 notification">Java II</p>
+        </div>
+
+        <div class="tile is-ancestor">
+          <div class="tile is-parent">
+            <div class="tile is-3 is-child">
+              <p class="subtitle box">Computer Networks</p>
+            </div>
+            <div class="tile is-3 is-child">
+              <p class="subtitle box">Operating Systems Programming</p>
+            </div>
+            <div class="tile is-3 is-child">
+              <p class="subtitle box">Advanced Programming</p>
+            </div>
+            <div class="tile is-3 is-child">
+              <p class="subtitle box">Software Engineering I & II</p>
+            </div>
           </div>
-          <div class="tile">
-            <p class="subtitle is-6 notification">Systems Design</p>
-          </div>
-          <div class="tile">
-            <p class="subtitle is-6 notification">Concepts in Programming Languages</p>
-          </div>
-          <div class="tile">
-            <p class="subtitle is-6 notification">Algorithm Design and Analysis</p>
-          </div>
-          <div class="tile">
-            <p class="subtitle is-6 notification">Applications Programming</p>
-          </div>
-          <div class="tile">
-            <p class="subtitle is-6 notification">Netcentric Computing</p>
-          </div>
-          <div class="tile">
-            <p class="subtitle is-6 notification">Computer Org. and Assembly Language</p>
-          </div>
-          <div class="tile">
-            <p class="subtitle is-6 notification">Theory of Computation and Algorithms</p>
-          </div>
-          <div class="tile">
-            <p class="subtitle is-6 notification">Advanced Programming</p>
-          </div>
-          <div class="tile">
-            <p class="subtitle is-6 notification">Software Engineering I & II</p>
-          </div>
-          <div class="tile">
-            <p class="subtitle is-6 notification">Computer Networks</p>
-          </div>
-          <div class="tile">
-            <p class="subtitle is-6 notification">Operating Systems Programming</p>
-          </div>
-          <div class="tile">
-            <p class="subtitle is-6 notification">Information and Database Systems</p>
+        </div>
+
+        <div class="tile is-ancestor">
+          <div class="tile is-parent">
+            <div class="tile is-4 is-child">
+              <p class="subtitle box">Computer Org. and Assembly Language</p>
+            </div>
+            <div class="tile is-4 is-child">
+              <p class="subtitle box">Theory of Computation and Algorithms</p>
+            </div>
+            <div class="tile is-4 is-child">
+              <p class="subtitle box">Information and Database Systems</p>
+            </div>
           </div>
         </div>
       </div>
       <br/>
     </section>
 
-
-   
-      
-      
   </GuestLayout>
 );
