@@ -4,7 +4,7 @@ import GuestLayout from './guest-layout';
 export default () => (
     <GuestLayout>
         <header className="postHeader">
-            <h1>TBD</h1>
+            <h1>Todo</h1>
         </header>
     </GuestLayout>
 );
