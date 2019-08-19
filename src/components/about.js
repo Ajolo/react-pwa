@@ -160,16 +160,22 @@ export default () => (
       <div className="container p-l-md p-r-md">
         <div className="tile is-ancestor">
           <div className="tile is-parent">
-            <div className="tile is-3 is-child">
+            <div className="tile is-12 is-child">
               <p className="subtitle box">C++ Fundamentals</p>
             </div>
-            <div className="tile is-3 is-child">
+          </div>
+          <div className="tile is-parent">
+            <div className="tile is-12 is-child">
               <p className="subtitle box">Advanced Data Structures</p>
             </div>
-            <div className="tile is-3 is-child">
+          </div>
+          <div className="tile is-parent">
+            <div className="tile is-12 is-child">
               <p className="subtitle box">Java II</p>
             </div>
-            <div className="tile is-3 is-child">
+          </div>
+          <div className="tile is-parent">
+            <div className="tile is-12 is-child">
               <p className="subtitle box">Systems Design</p>
             </div>
           </div>
@@ -177,16 +183,22 @@ export default () => (
 
         <div className="tile is-ancestor">
           <div className="tile is-parent">
-            <div className="tile is-3 is-child">
+            <div className="tile is-12 is-child">
               <p className="subtitle box">Concepts in Programming Languages</p>
             </div>
-            <div className="tile is-3 is-child">
+          </div>
+          <div className="tile is-parent">
+            <div className="tile is-12 is-child">
               <p className="subtitle box">Algorithm Design and Analysis</p>
             </div>
-            <div className="tile is-3 is-child">
+          </div>
+          <div className="tile is-parent">
+            <div className="tile is-12 is-child">
               <p className="subtitle box">Applications Programming</p>
             </div>
-            <div className="tile is-3 is-child">
+          </div>
+          <div className="tile is-parent">
+            <div className="tile is-12 is-child">
               <p className="subtitle box">Netcentric Computing</p>
             </div>
           </div>
@@ -194,16 +206,22 @@ export default () => (
 
         <div className="tile is-ancestor">
           <div className="tile is-parent">
-            <div className="tile is-3 is-child">
+            <div className="tile is-12 is-child">
               <p className="subtitle box">Computer Networks</p>
             </div>
-            <div className="tile is-3 is-child">
+          </div>
+          <div className="tile is-parent">
+            <div className="tile is-12 is-child">
               <p className="subtitle box">Operating Systems Programming</p>
             </div>
-            <div className="tile is-3 is-child">
+          </div>
+          <div className="tile is-parent">
+            <div className="tile is-12 is-child">
               <p className="subtitle box">Advanced Programming</p>
             </div>
-            <div className="tile is-3 is-child">
+          </div>
+          <div className="tile is-parent">
+            <div className="tile is-12 is-child">
               <p className="subtitle box">Software Engineering I & II</p>
             </div>
           </div>
@@ -211,13 +229,17 @@ export default () => (
 
         <div className="tile is-ancestor">
           <div className="tile is-parent">
-            <div className="tile is-4 is-child">
+            <div className="tile is-12 is-child">
               <p className="subtitle box">Computer Org. and Assembly Language</p>
             </div>
-            <div className="tile is-4 is-child">
+          </div>
+          <div className="tile is-parent">
+            <div className="tile is-12 is-child">
               <p className="subtitle box">Theory of Computation and Algorithms</p>
             </div>
-            <div className="tile is-4 is-child">
+          </div>
+          <div className="tile is-parent">
+            <div className="tile is-12 is-child">
               <p className="subtitle box">Information and Database Systems</p>
             </div>
           </div>

@@ -26,7 +26,8 @@ export default class Header extends PureComponent {
   render() {
     const { open } = this.state;
     return (
-      <div>
+      <div className="hero-head">
+      <section className="hero is-primary is-bold is-medium">
         <nav className="navbar" role="navigation" aria-label="main navigation">
           <div className="container">
             <div className="navbar-brand">
@@ -49,58 +50,39 @@ export default class Header extends PureComponent {
               </button>
             </div>
             <div className={`navbar-menu ${open ? 'is-active' : ''}`}>
-            {/*
-              <Link className="navbar-item" to="/" onClick={() => this.closeMenuBar()}>
-                About
-              </Link>
-            */}
               <Link className="navbar-item" to="/contact" onClick={() => this.closeMenuBar()}>
                 Contact
               </Link>
               <Link className="navbar-item" to="/projects" onClick={() => this.closeMenuBar()}>
                 Projects
               </Link>
-              {/*
-              <Link className="navbar-item" to="/global-local-css" onClick={() => this.closeMenuBar()}>
-                Global & Local CSS
-              </Link>
-              <Link className="navbar-item" to="/typescript-counter" onClick={() => this.closeMenuBar()}>
-                TypeScript Counter
-              </Link>
-              <Link className="navbar-item" to="/skeleton-loading" onClick={() => this.closeMenuBar()}>
-                Skeleton Loading
-              </Link>
-              <Link className="navbar-item" to="/image-optimization" onClick={() => this.closeMenuBar()}>
-                Image Optimization
-              </Link>
-              <Link className="navbar-item" to="/login" onClick={() => this.closeMenuBar()}>
-                Auth
-              </Link>
-              <Link className="navbar-item" to="/contribute" onClick={() => this.closeMenuBar()}>
-                Contribute
-              </Link>
-              */}
-              <a
-                className="navbar-item has-text-danger"
-                href="https://github.com/ajolo"
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={() => this.closeMenuBar()}
-              >
-                GitHub
-              </a>
-              <a
-                className="navbar-item has-text-danger"
-                href="https://www.linkedin.com/in/alex-joel-lopez/"
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={() => this.closeMenuBar()}
-              >
-                LinkedIn
-              </a>
+
+              <span className="navbar-item">
+                <a
+                  className="button is-primary is-inverted"
+                  href="https://github.com/ajolo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => this.closeMenuBar()}
+                >
+                  GitHub
+                </a>
+              </span>
+              <span className="navbar-item">
+                <a
+                  className="button is-primary is-inverted"
+                  href="https://www.linkedin.com/in/alex-joel-lopez/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => this.closeMenuBar()}
+                >
+                  LinkedIn
+                </a>
+              </span>
             </div>
           </div>
         </nav>
+      </section>
       </div>
     );
   }

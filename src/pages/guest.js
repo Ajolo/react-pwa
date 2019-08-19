@@ -11,7 +11,7 @@ export default [
     component: () => import('../components/about'),
     seo: {
       title:  'About',
-      description: 'Overview of qualifications and education',
+      description: 'Home page overview of qualifications and education',
     },
   },
   {
@@ -20,7 +20,7 @@ export default [
     component: () => import('../components/contact'),
     seo: {
       title:  'Contact',
-      description: 'Overview of qualifications and education',
+      description: 'Get in touch with me!',
     },
   },
   {
@@ -29,7 +29,7 @@ export default [
     component: () => import('../components/projects'),
     seo: {
       title:  'Projects',
-      description: 'Overview of qualifications and education',
+      description: 'What I\'ve been working on!',
     },
   },
   {
