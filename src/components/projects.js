@@ -20,7 +20,7 @@ export default () => (
                     <p>
                     In order to help assist students in experiencing a more complete, yet remote 
                     educational experience, I have helped in part to develop                             
-                    <a href="https://spu2you.herokuapp.com/" target="_blank"> spu2you</a>.
+                    <a href="https://spu2you.herokuapp.com/" target="_blank" rel="noopener noreferrer"> spu2you</a>.
                     By teaming with OhmniLabs and leveraging their telepresence robots, spu2you
                     would allow students to reserve and connect to a given robot and attend class from
                     the comfort of home. Built using React.js and leveraging Azure Cloud Services
@@ -56,7 +56,7 @@ export default () => (
                     for parallel web and desktop development, and the Firebase Realtime 
                     Database, making asynchronous calls to retrieve and store data. Live site 
                     hosted at 
-                    <a href="https://deadsimplenotes.com" target="_blank"> deadsimplenotes.com</a>.
+                    <a href="https://deadsimplenotes.com" target="_blank" rel="noopener noreferrer"> deadsimplenotes.com</a>.
                     </p>
                 </div>
                 </div>
@@ -109,7 +109,7 @@ export default () => (
                     This most recent iteration of ajolo.dev was built using React as an explorative
                     attempt of Progressive Web Applications. Complete with SEO, this application was 
                     made possible with Heroku, Bulma CSS, and 
-                    <a href="https://reactpwa.com" target="_blank"> ReactPWA</a> for boilerplate. 
+                    <a href="https://reactpwa.com" target="_blank" rel="noopener noreferrer"> ReactPWA</a> for boilerplate. 
                     </p>
                 </div>
                 </div>
