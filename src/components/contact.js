@@ -3,8 +3,14 @@ import GuestLayout from './guest-layout';
 
 export default () => (
     <GuestLayout>
-        <header className="postHeader">
-            <h1>Todo</h1>
-        </header>
+        <section className="hero is-primary is-bold is-small"> 
+            <div className="hero-body">
+                <div className="container">
+                    <h1 className="title is-2">
+                        spu2you
+                    </h1>
+                </div>
+            </div>
+        </section>
     </GuestLayout>
 );

@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import GuestLayout from './guest-layout';
 
-const Column = (props) => {
+{/*const Column = (props) => {
   const { title, description, link } = props;
   return (
     <div className="column">
@@ -36,10 +36,11 @@ Column.propTypes = {
   description: PropTypes.string.isRequired,
   link: PropTypes.string.isRequired,
 };
+*/}
 
 export default () => (
   <GuestLayout>
-    <section className="hero is-primary is-bold is-medium"> 
+    <section className="hero is-primary is-bold is-small"> 
       <div className="hero-body">
         <div className="container">
           <h1 className="title is-2">
@@ -51,7 +52,7 @@ export default () => (
     <section className="m-t-lg">
       <div className="container p-l-md p-r-md">
         <div className="box p-l-md p-r-md">
-          <div className="subtitle is-5">
+          <div className="subtitle is-4">
             <p>📍&nbsp;&nbsp; Located in Seattle, Washington</p>
             <p>📚&nbsp;&nbsp; Language familiarity: C++, C#, C, Java, Python, JavaScript, GoLang, PowerShell, Transact-SQL</p>
             <p>🔨&nbsp;&nbsp; Experience building responsive, RESTful web programs using libraries such as Node and React.js</p>
@@ -65,7 +66,7 @@ export default () => (
       </div>
     </section>
     <br/>
-    <section className="hero is-primary is-bold is-medium"> 
+    <section className="hero is-primary is-bold is-small"> 
       <div className="hero-body">
         <div className="container">
           <h1 className="title is-2">
@@ -95,7 +96,7 @@ export default () => (
       </div>
     </section>
     <br/>
-    <section className="hero is-primary is-bold is-medium"> 
+    <section className="hero is-primary is-bold is-small"> 
       <div className="hero-body">
         <div className="container">
           <h1 className="title is-2">
@@ -133,7 +134,7 @@ export default () => (
       </div>
     </section>
     <br/>
-    <section className="hero is-primary is-bold is-medium"> 
+    <section className="hero is-primary is-bold is-small"> 
       <div className="hero-body">
         <div className="container">
           <h1 className="title is-2">
