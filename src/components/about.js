@@ -50,31 +50,17 @@ export default () => (
     </section>
     <section className="m-t-lg">
       <div className="container p-l-md p-r-md">
-        <div className="box">
-          <h3 className="subtitle is-5">
-            > Located in Seattle, Washington
-          </h3>
-          <h3 className="subtitle is-5">
-            > Language familiarity: C++, C#, C, Java, Python, HTML, CSS, JavaScript, GoLang, Assembly, PowerShell, Transact-SQL
-          </h3>
-          <h3 className="subtitle is-5">
-            > Experience building responsive, RESTful web programs that use custom routing and libraries such as Node and React.js
-          </h3>
-          <h3 className="subtitle is-5">
-            > Comfortable with Windows/Unix environments as well as using the CLI
-          </h3>
-          <h3 className="subtitle is-5">
-            > Have worked with RESTful APIs in various instances, including development in JavaScript and Python for personal projects, as well as in PowerShell scripts for http request automation while working at NetApp
-          </h3>
-          <h3 className="subtitle is-5">
-            > Experience with version control software such as Git/GitHub on personal and group projects
-          </h3>
-          <h3 className="subtitle is-5">
-            > Familiarity with VM management using Hyper-V in addition to container services such as Docker
-          </h3>
-          <h3 className="subtitle is-5">
-            > Have designed and implemented SQL database residing on Azure for the purpose of storing highly available user data
-          </h3>
+        <div className="box p-l-md p-r-md">
+          <div className="subtitle is-5">
+            <p>📍&nbsp;&nbsp; Located in Seattle, Washington</p>
+            <p>📚&nbsp;&nbsp; Language familiarity: C++, C#, C, Java, Python, JavaScript, GoLang, PowerShell, Transact-SQL</p>
+            <p>🔨&nbsp;&nbsp; Experience building responsive, RESTful web programs using libraries such as Node and React.js</p>
+            <p>💻&nbsp;&nbsp; Comfortable with Windows/Unix environments as well as using the CLI</p>
+            <p>🌐&nbsp;&nbsp; Have worked with RESTful APIs in various instances such as in PowerShell scripts for http request automation while working at NetApp</p>
+            <p>👥&nbsp;&nbsp; Experience with version control software such as Git/GitHub on personal and group projects</p>
+            <p>📦&nbsp;&nbsp; Familiarity with VM management using Hyper-V in addition to container services such as Docker</p>
+            <p>☁️&nbsp;&nbsp; Have designed and implemented SQL database residing on Azure for the purpose of storing highly available user data</p>
+          </div>
         </div>
       </div>
     </section>

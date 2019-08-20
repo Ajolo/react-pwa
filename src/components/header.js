@@ -56,29 +56,30 @@ export default class Header extends PureComponent {
               <Link className="navbar-item" to="/projects" onClick={() => this.closeMenuBar()}>
                 Projects
               </Link>
-
-              <span className="navbar-item">
-                <a
-                  className="button is-primary is-inverted"
-                  href="https://github.com/ajolo"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={() => this.closeMenuBar()}
-                >
-                  GitHub
-                </a>
-              </span>
-              <span className="navbar-item">
-                <a
-                  className="button is-primary is-inverted"
-                  href="https://www.linkedin.com/in/alex-joel-lopez/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={() => this.closeMenuBar()}
-                >
-                  LinkedIn
-                </a>
-              </span>
+              <div className="navbar-end">
+                <span className="navbar-item">
+                  <a
+                    className="button is-primary is-inverted"
+                    href="https://github.com/ajolo"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={() => this.closeMenuBar()}
+                  >
+                    GitHub
+                  </a>
+                </span>
+                <span className="navbar-item">
+                  <a
+                    className="button is-primary is-inverted"
+                    href="https://www.linkedin.com/in/alex-joel-lopez/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={() => this.closeMenuBar()}
+                  >
+                    LinkedIn
+                  </a>
+                </span>
+              </div>
             </div>
           </div>
         </nav>
