@@ -9,7 +9,7 @@
     "lint": "pawjs lint",
     "test": "pawjs --no-cache test"
   },
-  "homepage": "https://ajolo.me"
+  "homepage": "https://ajolo.me",
   "author": {
     "name": "Atyantik Technologies",
     "email": "admin@atyantik.com",
