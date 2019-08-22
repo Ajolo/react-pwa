@@ -9,7 +9,7 @@
     "lint": "pawjs lint",
     "test": "pawjs --no-cache test"
   },
-  "homepage": "https://ajolo.me",
+  "homepage": "https://ajolo.github.io/react-pwa/",
   "author": {
     "name": "Atyantik Technologies",
     "email": "admin@atyantik.com",
