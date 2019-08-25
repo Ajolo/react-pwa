@@ -2,6 +2,7 @@
   "name": "react-pwa",
   "version": "2.2.6-alpha.0",
   "description": "A highly scalable, Progressive Web Application foundation with the best Developer Experience (DX).",
+  "homepage": "https://ajolo.netlify.com/",
   "scripts": {
     "start": "pawjs --no-cache --env=development start",
     "build": "pawjs --no-cache --config=./prod-pawconfig.json --env=production build",

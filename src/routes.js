@@ -11,7 +11,7 @@ export default class Routes {
   // eslint-disable-next-line
   apply(routeHandler) {
     routeHandler.setPwaSchema({
-      name: "ajolo.dev",
+      name: "https://ajolo.netlify.com",
       short_name: "ajolo.dev",
 
       // language: Default en-US #optional
